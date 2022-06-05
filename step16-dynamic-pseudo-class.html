@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Dynamic Psuedo Class Selectors */
+        input:hover{
+            background-color: aqua;
+        }
+        input:focus{
+            background-color: blue;
+        }
+        input:active{
+            background-color: brown;
+        }
+        */
+        /* lang selector : selects elements with a lang attribute assigned */
+        /* p:lang(es){
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serief;
+        }
+        p:lang(fr){
+            font-family: monospace;
+        }
+        p:lang(en){
+            font-family: Arial, Helvetica, sans-serief;
+        } */
+        /* adjecent sibling and general sibling selectors */
+        /*
+        ul+p{
+            border: 5px dotted orangered;
+        }
+        ul~p{
+            border: 5px dotted orangered;
+        }*/
+        /* Universal Selector */
+        body *{
+            border: 2px solid orangered;
+        }
+    </style>
+</head>
+<body>
+    <input type="text">
+    <br>
+    <br>
+    <input type="text">
+    <br>
+    <br>
+    <input type="text">
+
+</body>
+</html>
